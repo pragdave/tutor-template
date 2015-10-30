@@ -1,0 +1,18 @@
+title:   «your title goes here»
+authors: «your git user name»
+code:    «your code goes here»
+isbn:    pending
+
+parameters:
+
+  level     (Your level in this topic):
+    - tyro  (Beginner)
+    - pro   (Decent knowledge of programming)
+
+  os          (The operating system you use):
+    - osx     (OS X)
+    - linux   (Linux/Unix)
+    - windows (Windows)
+
+contents:
+  - sample.md
