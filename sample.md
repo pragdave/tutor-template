@@ -1,9 +1,15 @@
-# Introduction
+{::part Introduction }
 
-Before we get too deeping into the specifics of the m13 markup, let's review the basics:
+Before we get too deeping into the specifics of the Tutor markup,
+let's review the basics:
 
 {::include README.md /}
 
-# How to Write a Document using m13
+{:/part}
 
-{::include-pearl name=intro-to-m13 /}
+
+{::part How to Write a Document using Tutor}
+
+{::include-pearl name=intro-to-tutor /}
+
+{:/part}
