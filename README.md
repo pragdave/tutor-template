@@ -1,6 +1,6 @@
-# M13—The Pragmatic Way to Create Content
+# Tutor—generate tutorials as HTML files
 
-The M13 system is a simple way to create great-looking interactive
+The TUTOR system is a simple way to create great-looking interactive
 content for technical material. It makes it easy to create text, code
 listings, interactive terminal sessions, multi-level content, and
 quizzes.
@@ -8,22 +8,22 @@ quizzes.
 ## Getting Started
 
 
-1. Install the m13 tools on your machine if you haven't already:
+1. Install the tutor tools on your machine if you haven't already:
 
-        $ curl -fLsS https://raw.githubusercontent.com/pragdave/m13/master/install/osx.sh | sh
+        $ curl -fLsS https://raw.githubusercontent.com/pragdave/tutor/master/install/osx.sh | sh
 
 
 2. In the directory containing this README, use the command
 
-        $ m13
+        $ tutor
 
-   This should build an HTML file containing the m13 sample document.
+   This should build an HTML file containing the tutor sample document.
 
 ## What's Going On
 
-The m13 system has the concept of _necklaces_ and _pearls_.
+The tutor system has the concept of _necklaces_ and _pearls_.
 
-A pearl is a (relatively) self-contained chunk of documentation. It is packaged in such a way that you can use it, and other people can use it (and you get a royalty payment when they do).
+A pearl is a (relatively) self-contained chunk of documentation. It is packaged in such a way that you can use it, and other people can use it.
 
 A necklace is a complete document, assembled from a number of pearls (both your own and potentially other people's). You can also add your own commentary between pearls (if you like). This means that your necklace can build a narrative by pulling in pearls from multiple sources.
 
@@ -37,4 +37,4 @@ A necklace is a complete document, assembled from a number of pearls (both your 
 
     The trick here is to try to make each pearl free-standing. This will encourage others to use them.
 
-5. Start writing. Update the Necklace file to point to your first content document, and use `m13` to build it as you go.
+5. Start writing. Update the Necklace file to point to your first content document, and use `tutor` to build it as you go.
